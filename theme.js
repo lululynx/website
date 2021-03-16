@@ -12,7 +12,7 @@ import NotoSansHKThin from "./public/fonts/noto_sans_hk_thin.woff2";
 const theme = createMuiTheme({
   palette: {
     primary: {
-      main: "#d8e2dc",
+      main: "#00f5d4",
     },
     secondary: {
       main: "#4F4F4F",
@@ -49,7 +49,11 @@ const theme = createMuiTheme({
       lineHeight: "20px",
       fontSize: "12px",
     },
-    h6: { fontFamily: "GTHaptikRegular", color: "#0b5034", fontSize: "18px" },
+    h6: {
+      fontFamily: "GTHaptikRegularOblique",
+      color: "#0b5034",
+      fontSize: "14px",
+    },
     label: {
       fontFamily: ["FreightSansBook", "NotoSansHKThin"],
       lineHeight: "8px",
